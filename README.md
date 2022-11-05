@@ -1,4 +1,4 @@
-# 🚀 Next.js 13 Stack
+# 👺 Next.js Goblincore stack
 
 This is a very opinionated [Next.js](https://nextjs.org/) 13 starter project for quickly bootstrapping new full-stack JS projects that use Next.js 13+. While it's very much based around my own personal opinions on how I like to do things, it's designed to be easy to read, understand, and modify.
 
@@ -15,7 +15,7 @@ This is a very opinionated [Next.js](https://nextjs.org/) 13 starter project for
 -   [Github Actions](https://github.com/features/actions)
 -   [PNPM](https://pnpm.io)
 
-The inspiration for this project comes from [Remix stacks](https://remix.run/docs/en/v1/pages/stacks), an opinionated set of batteries-included starter templates for full stack JS development with a framework.
+The inspiration for this project comes from [Remix stacks](https://remix.run/docs/en/v1/pages/stacks), an opinionated set of batteries-included starter templates for full stack JS development with a framework, all named after music genres. The band that this template's name is inspired by is [Nekrogoblikon](https://en.wikipedia.org/wiki/Nekrogoblikon).
 
 ## Getting Started
 

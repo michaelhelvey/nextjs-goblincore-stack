@@ -1,7 +1,7 @@
 export default function Head() {
 	return (
 		<>
-			<title>Next.js Starter Project</title>
+			<title>Next.js Goblincore Stack</title>
 			<meta
 				content="width=device-width, initial-scale=1"
 				name="viewport"
