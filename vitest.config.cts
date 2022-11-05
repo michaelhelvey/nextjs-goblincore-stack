@@ -7,7 +7,7 @@ export default defineConfig({
 	test: {
 		globals: true,
 		include: ['**/**{test,spec}.{ts,tsx}'],
-		exclude: ['**/e2e/**'],
+		exclude: ['**/e2e/**', '**/node_modules/**'],
 		environment: 'happy-dom',
 		setupFiles: './scripts/setup-test-env.ts',
 		coverage: {

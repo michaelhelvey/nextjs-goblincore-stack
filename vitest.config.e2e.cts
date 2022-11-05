@@ -6,7 +6,7 @@ export default defineConfig({
 	test: {
 		globals: true,
 		include: ['**/**{test,spec}.e2e.{ts,tsx}'],
-		exclude: ['**/e2e/**'],
+		exclude: ['**/e2e/**', '**/node_modules/**'],
 		coverage: {
 			provider: 'istanbul',
 		},
