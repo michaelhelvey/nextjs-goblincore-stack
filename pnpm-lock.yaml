@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@playwright/test': ^1.27.1
   '@testing-library/dom': ^8.19.0
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
@@ -50,6 +51,7 @@ dependencies:
   tiny-invariant: 1.3.1
 
 devDependencies:
+  '@playwright/test': 1.27.1
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
@@ -634,6 +636,15 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+
+  /@playwright/test/1.27.1:
+    resolution: {integrity: sha512-mrL2q0an/7tVqniQQF6RBL2saskjljXzqNcCOVMUjRIgE6Y38nCNaP+Dc2FBW06bcpD3tqIws/HT9qiMHbNU0A==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.11.9
+      playwright-core: 1.27.1
+    dev: true
 
   /@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
@@ -3445,6 +3456,12 @@ packages:
   /pirates/4.0.5:
     resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==}
     engines: {node: '>= 6'}
+    dev: true
+
+  /playwright-core/1.27.1:
+    resolution: {integrity: sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /postcss-import/14.1.0_postcss@8.4.18:

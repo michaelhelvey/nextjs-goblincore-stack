@@ -3,4 +3,5 @@ prettier.config.cjs
 .eslintrc.cjs
 tailwind.config.js
 postcss.config.js
+playwright.config.ts
 scripts
