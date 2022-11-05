@@ -19,12 +19,13 @@ module.exports = {
 	},
 	plugins: ['@typescript-eslint', 'jest', 'jsx-a11y'],
 	extends: [
-		'next/core-web-vitals',
 		'eslint:recommended',
-		'prettier',
+		'next/core-web-vitals',
 		'plugin:@typescript-eslint/strict',
+		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'plugin:jsx-a11y/recommended',
+		'prettier',
 	],
 	rules: {
 		'no-console': ['warn'],

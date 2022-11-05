@@ -3,11 +3,8 @@ import type { ChildProcessWithoutNullStreams } from 'node:child_process'
 export class ProcessWatcher {
 	private outputQueue: string[] = []
 
-	// TODO: fix these linting errors
 	constructor(
-		// eslint-disable-next-line no-unused-vars
 		public readonly proc: ChildProcessWithoutNullStreams,
-		// eslint-disable-next-line no-unused-vars
 		private readonly timeout = 4000
 	) {}
 
