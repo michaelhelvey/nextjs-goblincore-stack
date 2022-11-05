@@ -1,6 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Next.js 13 Stack
+
+This is a very opinionated [Next.js](https://nextjs.org/) 13 starter project for quickly bootstrapping new full-stack JS projects that use Next.js 13+. While it's very much based around my own personal opinions on how I like to do things, it's designed to be easy to read, understand, and modify.
+
+**What's in the stack:**
+
+-   [TailwindCSS](https://tailwindcss.com/)
+-   [Vitest](https://vitest.dev/)
+-   [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+-   [Playwright](https://playwright.dev/)
+-   [Prettier](https://prettier.io/)
+-   [Eslint](https://typescript-eslint.io/)
+-   [Prisma](https://www.prisma.io/)
+-   [NextAuth.js](https://next-auth.js.org/)
+-   [Github Actions](https://github.com/features/actions)
+
+The inspiration for this project comes from [Remix stacks](https://remix.run/docs/en/v1/pages/stacks), an opinionated set of batteries-included starter templates for full stack JS development with a framework.
 
 ## Getting Started
+
+> TODO: add documentation on getting started, CI/CD, and deployment
 
 First, run the development server:
 
@@ -8,27 +26,12 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To learn more about Next.js, take a look at the [beta documentation](https://beta.nextjs.org/docs), describing what's new in Next 13, along with the [stable documentation](https://nextjs.org/docs) for a broader overview of the framework.

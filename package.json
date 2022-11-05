@@ -1,7 +1,7 @@
 {
-	"name": "twitter",
+	"name": "next-13-stack",
 	"version": "0.1.0",
-	"description": "Twitter clone built with Next.js 13",
+	"description": "My own opinionated template for Next.js 13+",
 	"private": true,
 	"author": {
 		"name": "Michael Helvey",
