@@ -13,24 +13,25 @@ This is a very opinionated [Next.js](https://nextjs.org/) 13 starter project for
 -   [Prisma](https://www.prisma.io/)
 -   [NextAuth.js](https://next-auth.js.org/)
 -   [Github Actions](https://github.com/features/actions)
+-   [PNPM](https://pnpm.io)
 
 The inspiration for this project comes from [Remix stacks](https://remix.run/docs/en/v1/pages/stacks), an opinionated set of batteries-included starter templates for full stack JS development with a framework.
 
 ## Getting Started
 
-> TODO: add documentation on getting started, CI/CD, and deployment
+1.  Set up the local database
 
-First, run the development server:
+```shell
+pnpm db:setup
+```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+2.  Run the dev server
+
+```shell
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+That's it, you're all set up to develop locally 🎉. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Learn More
 

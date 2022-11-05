@@ -1,22 +1,12 @@
 import type { ChildProcessWithoutNullStreams } from 'node:child_process'
 
 export class ProcessWatcher {
-	private outputQueue: string[] = []
-
 	constructor(
 		public readonly proc: ChildProcessWithoutNullStreams,
 		private readonly timeout = 4000
 	) {}
 
 	public waitFor(matcher: RegExp): Promise<string> {
-		// Before even waiting, look in the output queue to see if we already have it:
-		for (const item of this.outputQueue) {
-			if (matcher.test(item)) {
-				return Promise.resolve(item)
-			}
-		}
-
-		// Otherwise, wait via a promise for stdout
 		return new Promise((resolve, reject) => {
 			const timeout = setTimeout(
 				() => reject(`Timed out waiting for ${String(matcher)}`),
@@ -29,8 +19,6 @@ export class ProcessWatcher {
 
 			this.proc.stdout.on('data', (chunk: Buffer) => {
 				const output = chunk.toString()
-				this.outputQueue.push(output)
-
 				if (matcher.test(output)) {
 					clearTimeout(timeout)
 					resolve(output)
