@@ -6,7 +6,7 @@ async function main() {
 	await db.user.create({
 		data: {
 			firstName: 'Rupert',
-			lastName: 'Stilltskin',
+			lastName: 'Stiltskin',
 			email: 'rupert@starter.com',
 			passwords: {
 				create: [
