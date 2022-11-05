@@ -1,7 +1,7 @@
 vitest.config.cts
+vitest.config.e2e.cts
 prettier.config.cjs
 .eslintrc.cjs
 tailwind.config.js
 postcss.config.js
-playwright.config.ts
 scripts

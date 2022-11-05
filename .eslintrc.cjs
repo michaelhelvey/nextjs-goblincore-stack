@@ -37,6 +37,7 @@ module.exports = {
 			'error',
 			{ prefer: 'type-imports' },
 		],
+		'@typescript-eslint/consistent-type-definitions': 'off',
 	},
 	// While we use vitest instead of jest, because of the very similar API, we
 	// can still make good use of jest's linting plugin

@@ -1,15 +1,12 @@
-import react from '@vitejs/plugin-react'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
-	plugins: [react(), tsconfigPaths()],
+	plugins: [tsconfigPaths()],
 	test: {
 		globals: true,
-		include: ['**/**{test,spec}.{ts,tsx}'],
+		include: ['**/**{test,spec}.e2e.{ts,tsx}'],
 		exclude: ['**/e2e/**'],
-		environment: 'happy-dom',
-		setupFiles: './scripts/setup-test-env.ts',
 		coverage: {
 			provider: 'istanbul',
 		},
