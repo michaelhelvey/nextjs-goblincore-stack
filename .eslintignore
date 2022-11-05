@@ -1,4 +1,6 @@
 vitest.config.cts
 prettier.config.cjs
 .eslintrc.cjs
+tailwind.config.js
+postcss.config.js
 scripts
