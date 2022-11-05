@@ -1,0 +1,4 @@
+vitest.config.cts
+prettier.config.cjs
+.eslintrc.cjs
+scripts
